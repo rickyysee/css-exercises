@@ -41,6 +41,11 @@ body {
 ul {
   list-style-type: none;
   padding: 0px;
+  margin: 0px;
+}
+
+li {
+  margin-bottom: 16px;
 }
 
 a {
@@ -53,7 +58,9 @@ a {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  margin: 10px;
+  margin: 16px;
+  width: 300px;
+  padding: 16px;
 }
 
 .content-box {
@@ -65,12 +72,5 @@ a {
   display: flex;
   flex-wrap: wrap;
   padding: 32px;
-  justify-content: space-around;
-}
-
-.card {
-  width: 200px;
-  max-height: 30vh;
-  padding: 10px;
-  flex-shrink: 1;
+  /* justify-content: space-around; */
 }
